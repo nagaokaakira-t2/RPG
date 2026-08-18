@@ -1,0 +1,26 @@
+[
+  { "id": "swordmaster", "parentId": "warrior", "name": "剣豪", "nameEn": "Swordmaster", "hidden": false, "element": "風", "description": "素早い一撃離脱・カウンター寄り", "statBonus": { "str": 2, "int": 0, "vit": 0, "agi": 3, "luk": 0 } },
+  { "id": "guardian", "parentId": "warrior", "name": "重騎士", "nameEn": "Guardian", "hidden": false, "element": "地", "description": "高耐久・盾運用、味方の壁になる", "statBonus": { "str": 1, "int": 0, "vit": 4, "agi": -1, "luk": 0 } },
+  { "id": "berserker", "parentId": "warrior", "name": "大剣豪", "nameEn": "Berserker", "hidden": false, "element": "火", "description": "低命中高火力、被弾するほど強化", "statBonus": { "str": 4, "int": 0, "vit": -1, "agi": 0, "luk": 0 } },
+  { "id": "bloodfang", "parentId": "warrior", "name": "狂戦鬼", "nameEn": "Bloodfang", "hidden": true, "element": "闇", "description": "HP犠牲で爆発的コンボ、玄人向けリスキー特化", "statBonus": { "str": 6, "int": 0, "vit": -2, "agi": 1, "luk": 0 } },
+
+  { "id": "elementalist", "parentId": "mage", "name": "元素使い", "nameEn": "Elementalist", "hidden": false, "element": "火", "description": "属性切替で相性戦を制する", "statBonus": { "str": 0, "int": 3, "vit": 0, "agi": 0, "luk": 0 } },
+  { "id": "sage", "parentId": "mage", "name": "賢者", "nameEn": "Sage", "hidden": false, "element": "光", "description": "詠唱短縮・魔力効率、器用貧乏を克服", "statBonus": { "str": 0, "int": 2, "vit": 0, "agi": 1, "luk": 0 } },
+  { "id": "summoner", "parentId": "mage", "name": "召喚士", "nameEn": "Summoner", "hidden": false, "element": "地", "description": "使い魔を出し分担戦闘", "statBonus": { "str": 0, "int": 2, "vit": 1, "agi": 0, "luk": 0 } },
+  { "id": "warlock", "parentId": "mage", "name": "禁呪師", "nameEn": "Warlock", "hidden": true, "element": "闇", "description": "自傷/デメリット付き大魔法、ハイリスク高火力", "statBonus": { "str": 0, "int": 5, "vit": -2, "agi": 0, "luk": 0 } },
+
+  { "id": "assassin", "parentId": "rogue", "name": "暗殺者", "nameEn": "Assassin", "hidden": false, "element": "闇", "description": "背後・不意打ち特化の一撃必殺", "statBonus": { "str": 1, "int": 0, "vit": 0, "agi": 3, "luk": 2 } },
+  { "id": "acrobat", "parentId": "rogue", "name": "軽業師", "nameEn": "Acrobat", "hidden": false, "element": "風", "description": "高機動・回避特化、立ち回りで魅せる", "statBonus": { "str": 0, "int": 0, "vit": 0, "agi": 4, "luk": 0 } },
+  { "id": "trickster", "parentId": "rogue", "name": "遊撃士", "nameEn": "Trickster", "hidden": false, "element": "水", "description": "罠・妨害・状態異常でハメる", "statBonus": { "str": 0, "int": 1, "vit": 0, "agi": 2, "luk": 2 } },
+  { "id": "shade", "parentId": "rogue", "name": "影渡り", "nameEn": "Shade", "hidden": true, "element": "闇", "description": "一定時間実体を消す等、操作難度高めの回避特化玄人型", "statBonus": { "str": 0, "int": 0, "vit": -1, "agi": 5, "luk": 3 } },
+
+  { "id": "cleric", "parentId": "priest", "name": "神官", "nameEn": "Cleric", "hidden": false, "element": "光", "description": "継続回復・パーティ全体支援", "statBonus": { "str": 0, "int": 3, "vit": 1, "agi": 0, "luk": 0 } },
+  { "id": "paladin", "parentId": "priest", "name": "法皇", "nameEn": "Paladin", "hidden": false, "element": "光", "description": "攻守両立、前衛で戦える回復職", "statBonus": { "str": 1, "int": 1, "vit": 3, "agi": 0, "luk": 0 } },
+  { "id": "oracle", "parentId": "priest", "name": "巫女", "nameEn": "Oracle", "hidden": false, "element": "光", "description": "バフ・デバフ・封印特化", "statBonus": { "str": 0, "int": 2, "vit": 0, "agi": 0, "luk": 2 } },
+  { "id": "fallenpriest", "parentId": "priest", "name": "背徳の司祭", "nameEn": "Fallen Priest", "hidden": true, "element": "闇", "description": "味方のHPを対価にする代わりに超火力回復/攻撃、扱い注意の玄人型", "statBonus": { "str": 0, "int": 4, "vit": -1, "agi": 0, "luk": 0 } },
+
+  { "id": "sniper", "parentId": "ranger", "name": "狙撃手", "nameEn": "Sniper", "hidden": false, "element": "風", "description": "遠距離・高威力単発", "statBonus": { "str": 2, "int": 0, "vit": 0, "agi": 2, "luk": 0 } },
+  { "id": "trapper", "parentId": "ranger", "name": "罠師", "nameEn": "Trapper", "hidden": false, "element": "地", "description": "フィールド制圧・設置型", "statBonus": { "str": 0, "int": 2, "vit": 0, "agi": 1, "luk": 0 } },
+  { "id": "beastmaster", "parentId": "ranger", "name": "獣使い", "nameEn": "Beastmaster", "hidden": false, "element": "水", "description": "パートナー強化特化", "statBonus": { "str": 0, "int": 0, "vit": 2, "agi": 1, "luk": 0 } },
+  { "id": "ghosthunter", "parentId": "ranger", "name": "無双猟師", "nameEn": "Ghost Hunter", "hidden": true, "element": "風", "description": "弾数/クールダウン管理を極めた連射・機動特化、高難度操作型", "statBonus": { "str": 2, "int": 0, "vit": 0, "agi": 5, "luk": 0 } }
+]

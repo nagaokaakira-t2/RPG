@@ -1,0 +1,52 @@
+{
+  "warrior": {
+    "id": "warrior",
+    "name": "戦士",
+    "nameEn": "Warrior",
+    "description": "高HP、近接コンボ",
+    "weaponType": "剣・大剣",
+    "baseStats": { "hp": 40, "mp": 5, "str": 8, "int": 2, "vit": 7, "agi": 4, "luk": 4 },
+    "growth": { "hp": 6, "mp": 0.5, "str": 1.4, "int": 0.3, "vit": 1.2, "agi": 0.6, "luk": 0.5 },
+    "canGuard": true
+  },
+  "mage": {
+    "id": "mage",
+    "name": "魔導士",
+    "nameEn": "Mage",
+    "description": "遠隔魔法、低HP",
+    "weaponType": "杖・魔導書",
+    "baseStats": { "hp": 24, "mp": 20, "str": 2, "int": 9, "vit": 3, "agi": 4, "luk": 4 },
+    "growth": { "hp": 2.5, "mp": 2.2, "str": 0.3, "int": 1.6, "vit": 0.5, "agi": 0.6, "luk": 0.6 },
+    "canGuard": false
+  },
+  "rogue": {
+    "id": "rogue",
+    "name": "盗賊",
+    "nameEn": "Rogue",
+    "description": "高AGI、クリティカル、回避",
+    "weaponType": "短剣・弓",
+    "baseStats": { "hp": 28, "mp": 8, "str": 5, "int": 3, "vit": 4, "agi": 9, "luk": 7 },
+    "growth": { "hp": 3.2, "mp": 0.8, "str": 0.9, "int": 0.5, "vit": 0.7, "agi": 1.5, "luk": 1.1 },
+    "canGuard": false
+  },
+  "priest": {
+    "id": "priest",
+    "name": "僧侶",
+    "nameEn": "Priest",
+    "description": "回復・支援特化",
+    "weaponType": "メイス・杖",
+    "baseStats": { "hp": 30, "mp": 18, "str": 3, "int": 7, "vit": 5, "agi": 4, "luk": 5 },
+    "growth": { "hp": 3.5, "mp": 2.0, "str": 0.5, "int": 1.3, "vit": 0.8, "agi": 0.6, "luk": 0.7 },
+    "canGuard": true
+  },
+  "ranger": {
+    "id": "ranger",
+    "name": "狩人",
+    "nameEn": "Ranger",
+    "description": "中距離、罠、パートナー召喚",
+    "weaponType": "弓・銃",
+    "baseStats": { "hp": 30, "mp": 10, "str": 6, "int": 4, "vit": 4, "agi": 7, "luk": 5 },
+    "growth": { "hp": 3.4, "mp": 1.0, "str": 1.0, "int": 0.6, "vit": 0.7, "agi": 1.2, "luk": 0.8 },
+    "canGuard": false
+  }
+}
